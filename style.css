@@ -102,6 +102,18 @@ section .section-title {
   height: 550px; /* Pertahankan rasio aspek */
 }
 
+.eng-9 {
+  background-color: #ff5100;
+}
+
+.eng-8 {
+  background-color: #fa8955;
+}
+
+.ips-9 {
+  background-color: #fcaf8c;
+}
+
 /* PORTOFOLIO */
 .portofolio-section .card-img-top {
   height: 250px;
