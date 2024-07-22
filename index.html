@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/main.js"></script>
 
     <!-- Boxicons -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
@@ -135,11 +136,7 @@
       </div>
 
       <!-- ENGLISH GRADE 9 -->
-      <div
-        class="container eng-9 py-2 rounded"
-        style="--bs-bg-opacity: 1"
-        id="Eng-9"
-      >
+      <div class="container eng-9 py-2 rounded" id="Eng-9">
         <h2 class="section-title mb-3 text-white">English Grade 9</h2>
         <div class="accordion" id="accordionPanel1">
           <div class="accordion-item">
@@ -211,11 +208,7 @@
       <br class="mt-10" />
 
       <!-- ENGLISH GRADE 8 -->
-      <div
-        class="container eng-8 py-2 rounded"
-        style="--bs-bg-opacity: 0.5"
-        id="Eng-8"
-      >
+      <div class="container eng-8 py-2 rounded" id="Eng-8">
         <h2 class="section-title mb-3">English Grade 8</h2>
         <div class="accordion" id="accordionPanel2">
           <div class="accordion-item">
@@ -226,7 +219,7 @@
                 data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseFour"
               >
-                Accordion Item #1
+                Simple Past Tense
               </button>
             </h2>
             <div
@@ -235,51 +228,58 @@
               data-bs-parent="#accordionPanel2"
             >
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong>
+                <strong>Kamu bisa pelajari materi dari link berikut ini</strong>
+                <br />
+                -
+                <a
+                  href="https://www.canva.com/design/DAGLdN29I54/Mqzw_sfgVgZZluFvrKzpXQ/view"
+                  target="_blank"
+                  >Materi Past Tense</a
+                >
               </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseFive"
-                data-bs-parent="#accordionExample2"
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFive"
+                  data-bs-parent="#accordionExample2"
+                >
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionPanel2"
               >
-                Accordion Item #2
-              </button>
-            </h2>
-            <div
-              id="panelsStayOpen-collapseFive"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionPanel2"
-            >
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong>
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseSix"
-                data-bs-parent="#accordionExample2"
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseSix"
+                  data-bs-parent="#accordionExample2"
+                >
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionPanel2"
               >
-                Accordion Item #3
-              </button>
-            </h2>
-            <div
-              id="panelsStayOpen-collapseSix"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionPanel2"
-            >
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong>
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong>
+                </div>
               </div>
             </div>
           </div>
@@ -289,11 +289,7 @@
       <br class="mt-10" />
 
       <!-- IPS GRADE 9 -->
-      <div
-        class="container ips-9 py-2 rounded"
-        style="--bs-bg-opacity: 0.3"
-        id="IPS-9"
-      >
+      <div class="container ips-9 py-2 rounded" id="IPS-9">
         <h2 class="section-title mb-3">IPS Grade 9</h2>
         <div class="accordion" id="accordionPanel2">
           <div class="accordion-item">
@@ -537,7 +533,10 @@
           </div>
 
           <div class="col-md-5">
-            <form action="#">
+            <form
+              action="https://script.google.com/macros/s/AKfycbxDB1wNBjrFGP8malzDLtnPVvkAe0MFC-WdKXcACceyfp5DUYVkkkhVxWgXG2WW1IW4bg/exec"
+              method="post"
+            >
               <input
                 type="text"
                 name="name"
@@ -553,14 +552,16 @@
                 class="form-control rounded-0 mb-2"
               />
               <textarea
-                name="body"
-                id="body"
+                name="message"
+                id="message"
                 placeholder="Message"
                 cols="30"
                 rows="3"
                 class="form-control rounded-0 mb-3"
               ></textarea>
-              <button class="btn btn-orange w-100 rounded-0">Submit</button>
+              <button type="submit" class="btn btn-orange w-100 rounded-0">
+                Submit
+              </button>
             </form>
           </div>
         </div>
